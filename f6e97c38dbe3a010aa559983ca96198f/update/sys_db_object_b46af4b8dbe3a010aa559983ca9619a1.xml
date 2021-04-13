@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access/>
+        <actions_access>true</actions_access>
+        <alter_access>true</alter_access>
+        <caller_access/>
+        <client_scripts_access>true</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <extension_model/>
+        <is_extendable>false</is_extendable>
+        <label>ticket</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_oui_demo_ticket</name>
+        <number_ref display_value="TICKET">706af4b8dbe3a010aa559983ca9619d8</number_ref>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_code/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_class_path/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-13 15:11:04</sys_created_on>
+        <sys_id>b46af4b8dbe3a010aa559983ca9619a1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ticket</sys_name>
+        <sys_package display_value="demo" source="x_oui_demo">f6e97c38dbe3a010aa559983ca96198f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="demo">f6e97c38dbe3a010aa559983ca96198f</sys_scope>
+        <sys_update_name>sys_db_object_b46af4b8dbe3a010aa559983ca9619a1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-13 15:11:04</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+</record_update>
