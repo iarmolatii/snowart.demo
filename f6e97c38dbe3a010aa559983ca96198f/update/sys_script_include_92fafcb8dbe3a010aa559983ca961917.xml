@@ -8,9 +8,22 @@
         <description/>
         <name>demoUtils</name>
         <script><![CDATA[var demoUtils = Class.create();
+
+demoUtils.get = function() {
+    var result = null;
+
+    if (x_oui_demo.demoUtilsInstance) {
+        result = x_oui_demo.demoUtilsInstance;
+    } else {
+        result = new x_oui_demo.demoUtils();
+        x_oui_demo.demoUtilsInstance = result;
+    }
+
+    return result;
+};
+
 demoUtils.prototype = {
-    initialize: function() {
-    },
+    initialize: function() {},
 
     type: 'demoUtils'
 };]]></script>
@@ -18,13 +31,13 @@ demoUtils.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-04-13 15:13:56</sys_created_on>
         <sys_id>92fafcb8dbe3a010aa559983ca961917</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>demoUtils</sys_name>
         <sys_package display_value="demo" source="x_oui_demo">f6e97c38dbe3a010aa559983ca96198f</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="demo">f6e97c38dbe3a010aa559983ca96198f</sys_scope>
         <sys_update_name>sys_script_include_92fafcb8dbe3a010aa559983ca961917</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-04-13 15:13:56</sys_updated_on>
+        <sys_updated_on>2021-04-13 15:28:37</sys_updated_on>
     </sys_script_include>
 </record_update>
